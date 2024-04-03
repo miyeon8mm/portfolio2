@@ -1,0 +1,25 @@
+*{margin:0; padding:0; box-sizing:border-box;}
+li{list-style:none;}
+a{text-decoration:none; color:inherit;}
+body{position:relative;}
+
+#header_1depth{
+    display:flex;
+}
+.logo{
+    width:100%;
+    padding-top:10px;
+    text-align:center;height:80px;
+    background-color:blanchedalmond;
+    /* position:fixed; */
+}
+
+
+#data ul{
+    width:300px;
+    background-color:aqua;
+    position:absolute;
+    display:flex;
+    justify-content:space-between;
+    z-index:100;
+}
