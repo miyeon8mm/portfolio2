@@ -1,7 +1,8 @@
 *{margin:0; padding:0; box-sizing:border-box;}
 li{list-style:none;}
 a{text-decoration:none; color:inherit;}
-body{position:relative;}
+body{position:relative;
+background-color:#fffdf8;}
 
 #header_1depth{
     display:flex;

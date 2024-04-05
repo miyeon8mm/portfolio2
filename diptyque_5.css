@@ -1,0 +1,21 @@
+#new_sec{
+    /* position:relative; */
+}
+#new_sec ul{
+    width:1440px;
+    background-color:aquamarine;
+    display:flex;
+    flex-flow:row wrap;
+    gap:20px;
+    justify-content:space-between;
+    margin-left:calc(50% - 50vw);
+    
+}
+
+#new_sec a{
+    width:400px;
+    height:400px;
+    background-color:burlywood;
+
+}
+
