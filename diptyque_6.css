@@ -1,0 +1,28 @@
+#diptyque_intru ul{
+    width:1439px;
+    display:grid;
+    grid-template-columns:repeat(2,600px);
+    grid-template-rows:repeat(2,1fr);
+    margin:0 auto;
+}
+#diptyque_intru li img{
+    width:600px;
+    height:680px;
+}
+
+.intru_text_box{
+    margin-left:20px;
+    line-height:30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+
+.intru_text_box_right{
+    margin-right:20px;
+    line-height:30px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:end;
+}

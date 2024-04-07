@@ -1,0 +1,57 @@
+
+#call_num{
+    display:flex;
+    gap:8px;
+}
+#call_num span{
+    font-size:25px;
+    font-weight:700;
+}
+#call_num p{
+    
+    color:#cbcbcb;
+}
+
+#footer_custumer ul{
+    margin-top:100px;
+    height:60px;
+    display:flex;
+    gap:32px;
+    padding:0 12px;
+    margin:0 21px;
+    line-height:60px;
+    
+}
+
+#footer_text{
+    width:100%;
+    padding:40px 12px 60px 12px;
+    background-color:#f8f8f8;
+   
+}
+
+#footer_about_1edth ul{
+    display:flex;
+    gap:32px;
+    margin-bottom:32px;
+    
+}
+
+#footer_about_1edth li span{font-weight:700;}
+
+#footer_about_2edth ul{
+    display:flex;
+    flex-direction:row wrap;
+    font-size:13px;
+    color:#929292;
+}
+
+#footer_about_2edth li{
+    border-right:1px solid#929292;
+    padding:0 0 0 25px;
+}
+
+#footer_about_2edth li:nth-child(1){
+    padding-left:0px;
+}
+#footer_about_2edth li:nth-child(7){border-right:none;}
