@@ -1,0 +1,33 @@
+#diptyque_service{
+    width:100%;
+    margin-top:50px;
+    border-top:1px solid#000;
+}
+#diptyque_service h2{
+    width:280px;
+  
+    margin:50px auto;
+    
+}
+#service ul{
+    width:100%;
+    
+    display:flex;
+    justify-content:center;
+    gap:30px;
+  
+}
+#service li img{
+    margin-left:10px;
+    border:1px solid#000;
+}
+
+#service li{
+    width:120px;
+   
+}
+
+.service_text{
+    text-align:center;
+    font-size:13px;
+}

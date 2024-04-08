@@ -3,6 +3,7 @@
     height:100vh;
     display:flex;
     justify-content:space-evenly;
+    align-items:center;
     gap:20px;
     padding:60px;
 }
@@ -13,8 +14,11 @@
 }
 #ad_tilte{
     height:100vh;
-    margin-top:150px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
+#ad_tilte span{line-height:30px;}
 .ad img{
     width:800px;
     

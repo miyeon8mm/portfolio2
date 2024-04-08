@@ -1,6 +1,7 @@
 
 #new_sec{
-    margin-bottom:50px;
+
+    margin:100px 0;
 }
 #new_title{
     width:100%;
@@ -37,7 +38,7 @@
     height:380px;
 }
 
-.new_text_box{
+.text_box{
     width:300px;
     padding:8px 0;
     text-align:center;
