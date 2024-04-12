@@ -1,8 +1,9 @@
 #diptyque_intru ul{
-    width:1439px;
+    width:1200px;
     display:grid;
     grid-template-columns:repeat(2,600px);
     grid-template-rows:repeat(2,1fr);
+    padding-bottom:80px;
     margin:0 auto;
 }
 #diptyque_intru li img{

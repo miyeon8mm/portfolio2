@@ -1,9 +1,9 @@
 
-#new_sec{
+#best_sec{
 
     margin:100px 0;
 }
-#new_title{
+#best_title{
     width:100%;
    
     text-align:center;
@@ -11,7 +11,7 @@
     font-size:30px;
     letter-spacing:.4px;
 }
-#new_depth{
+#best_depth{
     width:100vw;
    
     display:flex;
@@ -21,7 +21,7 @@
 
 }
 
-#new_depth ul{
+#best_depth ul{
     width:940px;
    
     display:flex;
@@ -33,7 +33,7 @@
 }
 
 
-#new_depth li img{
+#best_depth li img{
     width:300px;
     height:380px;
 }

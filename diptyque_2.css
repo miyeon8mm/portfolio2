@@ -5,7 +5,7 @@
     justify-content:space-evenly;
     align-items:center;
     gap:20px;
-    padding:60px;
+    /* padding:60px 0 0 60px; */
 }
 
 #ad_1sec span{
@@ -25,6 +25,7 @@
 }
 
 .more{
+    width:300px;
     margin-top:100px;
     margin-left:calc(50% - 50px);
     font-size:20px;

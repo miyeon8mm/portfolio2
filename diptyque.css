@@ -2,13 +2,17 @@
 }
 li{list-style:none;}
 a{text-decoration:none; color:inherit;}
-body{position:relative;
-background-color:#fffdf8;}
+body{
+    width:100%;
+    position:relative;
+    background-color:#fffdf8;
+}
 
 #header_1depth{
     width:100%;
     display:flex;
     position:fixed;
+    z-index:50;
 }
 
 .logo{
@@ -40,12 +44,12 @@ background-color:#fffdf8;}
 
 
 #gnb_menu ul{
-    width:100%;
+    width:100vw;
     height:50px;
     background-color:rgba(0,0,0,.2);
     display:flex;
     justify-content:center;
-    gap:39px;
+    gap:40px;
     font-size:20px;
     font-weight:700;
     padding:10px 0 10px 0;
@@ -53,16 +57,19 @@ background-color:#fffdf8;}
     position:absolute;
 }
 
+
 #gnb_menu li:hover{text-decoration:underline;}
 #slide_menu ul{
-    width:100%;
+    width:1460px;
     display:flex;
     justify-content:space-between;
-    gap:20px;
+    gap:30px;
+    margin:0 auto;
+    
 }
 
 #slide_menu li img{
-    width:345px;
+    width:350px;
     height:380px; 
     margin-top:80px;
 }
