@@ -36,6 +36,48 @@ body{
 }
 .material-symbols-outlined{font-size:30px;}
 
+
+#my_page ul{ 
+    width:150px;
+    height:180px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    color:#929292;
+    background-color:#fff;
+    position:absolute;
+    right:50px;
+    padding:12px 20px;
+    border:.8px solid#000;
+    position:block;
+    display:none;
+}
+
+
+#look_pro{
+    width:400px;
+    height:350px;
+    padding:.8px;
+    background-color:#fff;
+    position:absolute;
+    margin-right:15px;
+    right:0;
+    top:55px;
+    display:none;
+    border:.8px solid#000;
+
+}
+#look_pro h4{
+   margin-top:30px;
+   margin-left:20px;
+}
+#look_pro p{
+    width:200px;
+    height:304px;
+    line-height:304px;
+    margin:0 auto;
+    color:#929292
+}
 #main_ad{
     width:100%;
     height:100vh;
